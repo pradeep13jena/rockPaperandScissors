@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.container img{
+    transition: scale .5s;
+}
+
+.container h3, .container h1, #computerChoiceDisplay{
+    font-family: "Bungee Tint", sans-serif;
+ 
+}
+
+.container h3{
+    color: #ff0000;
+}
+
+.container img:active{
+    scale: 1.2;
+}
+
+#score{
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+}
+
+.computerScore h1, .PlayerScore h1{
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    margin-top: 4em;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#scissors img{
+    width: 17rem;
+}
+
+#rock img{
+    width: 19rem;
+}
+
+#paper img{
+    width: 10rem;
+}
+
+.computerChoiceDisplay{
+    position: absolute;
+    display: flex;
+    left: 20px;
+    justify-content: space-between;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.display img{
+    width: 30px;
+}
